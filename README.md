@@ -11,5 +11,5 @@ MIRO_TOKEN='your Miro OAuth token with boards:read, boards:write'
 
 Run Deno app.
 ```sh
-% deno run --allow-env --allow-read mod.ts
+% deno run --allow-env --allow-read --allow-net mod.ts
 ```
